@@ -1,0 +1,24 @@
+.card {
+  /* Physical sizing of the card */
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  /* Color scheme of the card */
+  background: #ffffff;
+
+  /* Effects of the card */
+  transition: transform 0.25s ease-out;
+  box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.07);
+}
+
+.card:hover {
+  /* Styling of hover effect of the card */
+  transform: scale(1.05);
+  box-shadow: 2px 8px 6px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 20px;
+}
